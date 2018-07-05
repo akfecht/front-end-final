@@ -1,0 +1,183 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*** Dimensions for iphone 8 ***/
+
+body{
+	height: 667px;
+	width: 375px;
+	padding-left: 50px;
+}
+
+
+body {
+	font-family: SF Pro display;
+	font-size: 1em;
+	color: white;
+}
+
+/*** Title Bar Attributes ***/
+
+.header {
+	background-color: #f4f4f4;
+	border-bottom: 2px solid #8a8a8f;
+}
+
+.arrow img {
+	padding-left: 4%;
+	vertical-align: middle;
+}
+
+h1{
+	vertical-align: middle;
+	display: inline-block;
+	color: black;
+	font-size: 1.4em;
+	padding-top: .4em;
+	padding-bottom: .6em;
+	padding-left: 2.2em;
+}
+
+.topbar {
+	background-color: #f8f8f8;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+
+
+h2{
+	display: inline-block;
+	font-size: 1.2em;
+	font-weight: 700;
+  color: black;
+}
+
+.busNumTitle {
+  width: 18%;
+}
+
+.desTitle {
+	padding-left: 8%
+}
+
+.freqTitle {
+	float: right;
+}
+
+/*** List Attributes ***/
+
+.busNum {
+	width: 18%;
+	display: inline-block;
+	font-size: 1.3em;
+	font-weight: 600;
+}
+
+
+.des {
+	letter-spacing: .05em;
+	display: inline-block;
+	font-weight: lighter;
+	padding-left: 8%;
+}
+
+
+
+.freq {
+	float: right;
+	right: 0px;
+	display: inline-block;
+	font-size: 1.3em;
+	font-weight: 600;
+}
+
+
+
+p {
+	letter-spacing: .05em;
+	padding-top: 4%;
+	padding-left: 4%;
+	font-weight: lighter;
+	font-size: .8em;
+}
+
+ul {
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+/*** Header ***/
+
+
+
+
+/*** Border ***/
+
+.borderstyle div{
+	border-bottom: 1px solid #06544c;
+}
+
+/*** Background ***/
+
+
+hr {
+  border-top: .5px solid #ffffff;
+	border-bottom: .5px solid #ffffff;
+	height: 0px;
+	margin: 0px;
+}
+
+.backgroundcolor div{
+	background-color: #0c645a;
+}
